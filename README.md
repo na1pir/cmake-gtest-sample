@@ -1,13 +1,13 @@
 # cmake-gtest-sample
 
-I made this project as a boilerplate to quickly create C/C++ projects using cmake as the build tool and gooogletest as the unit test tool. I tested it on a OSX El Capitan but "should work elsewhere".
+I made this project as a boilerplate to quickly create C/C++ projects using CMake as the build tool and Google Test as the unit test tool. I tested it on OSX El Capitan but "it should work elsewhere".
 
 ## Installation
 
 You should install the following gems:
 * [CMake](https://cmake.org/)
  Necessary for multiplatform build
-* [CppUTest](http://cpputest.github.io/)
+* [Google Test](http://github.com/google/googletest)
  All test code done using this framework
 
 ## Usage
