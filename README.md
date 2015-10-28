@@ -13,40 +13,40 @@ You should install the following gems:
 ## Usage
 
 1. Clone this repo to your desired path, ie: under $HOME/repos:
-```
-cd $HOME/repos
-git clone https://github.com/rulas/cmake-gtest-sample.git
-```
+	```
+	cd $HOME/repos
+	git clone https://github.com/rulas/cmake-gtest-sample.git
+	```
 
 2. Clone the googletest framework to your desired path, ie: under $HOME/repos
-```
-cd $HOME/repos
-git clone https://github.com/google/googletest.git
-```
+	```
+	cd $HOME/repos
+	git clone https://github.com/google/googletest.git
+	```
 
 3. Build googletest with default options
-```
-cd $HOME/repos/googletest/googletest
-cmake .
-make
-```
+	```
+	cd $HOME/repos/googletest/googletest
+	cmake .
+	make
+	```
 
 4. export the GTEST_ROOT environment variable with the path to your google path folder
-```
-export GTEST_ROOT=$HOME/repos/googletest/googletest
-```
+	```
+	export GTEST_ROOT=$HOME/repos/googletest/googletest
+	```
 
 5. build this repo
-```
-cd $HOME/repos/thisrepo
-cmake .
-make
-```
+	```
+	cd $HOME/repos/cmake-gtest-sample
+	cmake .
+	make
+	```
 
 6. Run test
-```
-./Run
-```
+	```
+	./RunTest
+	```
 
 
 ## Contributing
